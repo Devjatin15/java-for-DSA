@@ -1,0 +1,4 @@
+        int ans = a * b / a - b; // it is important to understand the order of operations in Java, which is similar to the order of operations in mathematics. The order of operations is as follows: parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right). So in this case, the multiplication is performed first, then the division, and finally the subtraction. Therefore, the result of this expression is 0
+        int ans2 = (a * b) / (a - b); // in this case, the multiplication is performed first, then the subtraction, and finally the division. Therefore, the result of this expression is 25
+        System.out.println(ans);
+        System.out.println(ans2);
