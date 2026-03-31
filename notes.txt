@@ -2,3 +2,7 @@
         int ans2 = (a * b) / (a - b); // in this case, the multiplication is performed first, then the subtraction, and finally the division. Therefore, the result of this expression is 25
         System.out.println(ans);
         System.out.println(ans2);
+
+double num = 5.6; it is the default way to use
+float num = 5.6; it gives an error
+float num = 5.6f; doesnt give an error
